@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>delaunay_triangulation</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Geometry.fs" />
+    <Compile Include="Draw.fs" />
+    <Compile Include="Utility.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta15" />
+  </ItemGroup>
+</Project>
